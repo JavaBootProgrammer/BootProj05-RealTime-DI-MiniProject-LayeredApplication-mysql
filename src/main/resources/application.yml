@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: BootProj04-RealtimeDI-MiniProject-LayeredApplication
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 10
+    password: root
+    url: jdbc:mysql:///NTSPBMS911DB
+    username: root
