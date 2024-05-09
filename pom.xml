@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>nit</groupId>
-	<artifactId>BootProj04-RealtimeDI-MiniProject-LayeredApplication</artifactId>
+	<artifactId>BootProj05-RealtimeDI-MiniProject-LayeredApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BootProj04-RealtimeDI-MiniProject-LayeredApplication</name>
 	<description>Demo project for Spring Boot</description>
