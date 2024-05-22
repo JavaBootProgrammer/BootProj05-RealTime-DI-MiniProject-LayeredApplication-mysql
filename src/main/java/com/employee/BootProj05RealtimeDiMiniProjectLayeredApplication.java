@@ -1,4 +1,4 @@
-package com.nt;
+package com.employee;
 
 import java.util.List;
 
@@ -7,11 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.Bean;
 
-import com.mchange.v2.c3p0.ComboPooledDataSource;
-import com.nt.controller.EmployeeOperationsController;
-import com.nt.model.Employee;
+import com.employee.controller.EmployeeOperationsController;
+import com.employee.model.Employee;
 
 @SpringBootApplication(exclude = JdbcTemplateAutoConfiguration.class)
 public class BootProj05RealtimeDiMiniProjectLayeredApplication {

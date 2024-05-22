@@ -1,4 +1,4 @@
-package com.nt.model;
+package com.employee.model;
 
 import lombok.Data;
 

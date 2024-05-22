@@ -1,4 +1,4 @@
-package com.nt.dao;
+package com.employee.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,10 +10,9 @@ import java.util.List;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.nt.model.Employee;
+import com.employee.model.Employee;
 
 @Repository("empDAO")
 public class EmployeeDAOImpl implements IEmployeeDAO {
